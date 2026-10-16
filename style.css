@@ -520,3 +520,12 @@ footer {
     margin: 24px auto;
   }
 }
+.pub-badge.preparation {
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid #cbd5e1;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
