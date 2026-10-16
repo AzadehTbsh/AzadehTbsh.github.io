@@ -484,6 +484,49 @@ footer {
   margin-top: 20px;
 }
 
+/* ── PROJECT LOGOS ────────────────────────────────── */
+.project-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 16px;
+  opacity: 0.35;
+  filter: grayscale(100%);
+  transition: opacity 0.2s, filter 0.2s;
+}
+
+.project-logos:hover {
+  opacity: 0.85;
+  filter: none;
+}
+
+.project-logos a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.project-logo {
+  height: 40px;
+  width: auto;
+}
+
+.project-logos-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.project-logo-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
 /* ── RESPONSIVE ───────────────────────────────────── */
 @media (max-width: 900px) {
   .container {
